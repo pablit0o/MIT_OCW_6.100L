@@ -1,2 +1,3 @@
-Personal Guide to MIT OCW's 6.100L | Intro to Python
-Made by: Pablo Silva
+My solutions to Mr. TIM's psets
+
+"I Have Truly Found Paradise"
