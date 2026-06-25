@@ -1,7 +1,7 @@
 """
 # Problem Set 5
-# Name:
-# Collaborators:
+# Name: Pablo Silva
+# Collaborators: Code Geass OST
 """
 
 from PIL import Image, ImageFont, ImageDraw
@@ -69,7 +69,16 @@ def img_to_pix(filename):
                  in form (R,G,B) such as [(0,0,0),(255,255,255),(38,29,58)...] for RGB image
                  in form L such as [60,66,72...] for BW image
     """
-    pass
+    pix_values = []
+    im = Image.open(filename)
+    
+    # note: traverse row-major order
+    for y in range(im.size[1]):
+        for x in range(im.size[0]):
+            # getpixel accepts tuple of x,y coordinate
+            pix_values.append(im.getpixel((x, y)))
+    return pix_values
+
 
 
 def pix_to_img(pixels_list, size, mode):
@@ -88,7 +97,12 @@ def pix_to_img(pixels_list, size, mode):
     returns:
         img: Image object made from list of pixels
     """
-    pass
+    im = Image.new(mode, size)
+    for y in range(size[1]):
+        for x in range(size[0]):
+            im.putpixel((x, y), pixels_list[(y*size[0])+x])
+    
+    return im
 
 
 def filter(pixels_list, color):
@@ -100,7 +114,16 @@ def filter(pixels_list, color):
     returns: list of pixels in same format as earlier functions,
     transformed by matrix multiplication
     """
-    pass
+    matrix = make_matrix(color)
+    new_pixels = []
+    for pixel in pixels_list:
+        new_pixel = matrix_multiply(matrix, pixel)
+        # Use round() instead of int() for best results
+        new_pixel = [round(x) for x in new_pixel]
+        new_pixels.append(tuple(new_pixel))
+    
+    return new_pixels
+
 
 
 def extract_end_bits(num_end_bits, pixel):
@@ -133,7 +156,16 @@ def extract_end_bits(num_end_bits, pixel):
     Returns:
         The num_end_bits of pixel, as an integer (BW) or tuple of integers (RGB).
     """
-    pass
+    # correction on docstring: should be num_end_bits = 3 for 2nd test case
+    # divide by 2 to the num_end_bits
+    if type(pixel) == tuple:
+        num = tuple([(x%pow(2,num_end_bits)) for x in list(pixel)])
+    else:
+        num = pixel%pow(2, num_end_bits)
+    
+    return num
+
+
 
 
 def reveal_bw_image(filename):
@@ -144,7 +176,18 @@ def reveal_bw_image(filename):
     Returns:
         result: an Image object containing the hidden image
     """
-    pass
+    im = Image.open(filename)
+    
+    pixels = img_to_pix(filename)
+
+    # Find greatest LSB that still works
+    LSB = 1 # should be either 0/1
+    
+    for i in range(len(pixels)):
+        pixels[i] = 255*extract_end_bits(LSB, pixels[i]) # 0/255
+    
+    return pix_to_img(pixels, im.size, 'L')
+
 
 
 def reveal_color_image(filename):
@@ -155,7 +198,18 @@ def reveal_color_image(filename):
     Returns:
         result: an Image object containing the hidden image
     """
-    pass
+    # same procedure but LSB = 3, therefore rescale by 
+    im = Image.open(filename)
+    pixels = img_to_pix(filename)
+
+    LSB = 3
+    
+    for i in range(len(pixels)):
+        # had to brute force the scaling a bit; truncate the value last
+        pixels[i] = tuple(255*(extract_end_bits(LSB, x))//7 for x in pixels[i])
+
+    
+    return pix_to_img(pixels, im.size, 'RGB')
 
 
 def reveal_image(filename):
@@ -202,24 +256,28 @@ def main():
 
     # Uncomment the following lines to test part 1
 
-    #im = Image.open('image_15.png')
-    #width, height = im.size
-    #pixels = img_to_pix('image_15.png')
-
-    #non_filtered_pixels = filter(pixels,'none')
-    #im = pix_to_img(non_filtered_pixels, (width, height), 'RGB')
+    im = Image.open('image_15.png')
+    width, height = im.size
+    pixels = img_to_pix('image_15.png')
+    
+    non_filtered_pixels = filter(pixels,'none')
+    im = pix_to_img(non_filtered_pixels, (width, height), 'RGB')
     # im.show()
 
-    #red_filtered_pixels = filter(pixels,'red')
-    #im2 = pix_to_img(red_filtered_pixels,(width,height), 'RGB')
+    red_filtered_pixels = filter(pixels,'red')
+    im2 = pix_to_img(red_filtered_pixels,(width,height), 'RGB')
     # im2.show()
 
     # Uncomment the following lines to test part 2
-    #im = reveal_image('hidden1.bmp')
+    im = reveal_image('hidden1.bmp')
     # im.show()
 
-    #im2 = reveal_image('hidden2.bmp')
+    im2 = reveal_image('hidden2.bmp')
     # im2.show()
+
+    draw_kerb('ans_01.png', 'pablit0o was here')
+    draw_kerb('ans_02.png', 'the truth shall set you free')
+    draw_kerb('ans_03.png', 'mens et manus')
     
 
 if __name__ == '__main__':
