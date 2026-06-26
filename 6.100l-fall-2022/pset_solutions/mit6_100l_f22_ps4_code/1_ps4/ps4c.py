@@ -1,6 +1,6 @@
 # Problem Set 4C
-# Name:
-# Collaborators:
+# Name: Pablo Silva
+# Collaborators: N/A
 
 import json
 import ps4b # Importing your work from Part B
