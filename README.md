@@ -10,5 +10,4 @@ Footnotes:
 [1] - Pset 1 Part C of 6.100L contains an inaccurate grading criteria for the bisection method. Note that the grading criteria was plus-or-minus one off of the ground truth. This does not seem to be reflected for the third test case. For more info there should be some comments regarding this footnote.  
 [2] - Some of my answers prior to pset 4 from 18.06 contain problems from newer editions of the textbook. Also, 18.06 is a "one-time-answer", meaning that my answers were computed/finalized once. Of course, I made plenty of mistakes! Revise the official pset answers to see the solutions.  
 [3] - Pset 4 of 18.06 contains various typos (latex I assume). Previous psets could exhibit the same behavior listed here.  
-
-"I Have Truly Found Paradise"
+[4] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam 3.  
