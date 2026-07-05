@@ -8,6 +8,6 @@ Coursework and Footnotes:
 - 18.06: Linear Algebra (Strang!)  
 [2] - My problems from Pset 3 are completely different than the official problems. The fifth edition has different section-numbers and as such I did not select the correct problems. Ensure that you get a copy of the correct edition (4th) for problems! Please note that I take 18.06 as a "one-time-answer", meaning that my answers are computed/finalized once. Of course, I made plenty of mistakes! Revise the official pset answers to see the solutions.  
 [3] - Pset 4 of 18.06 contains various typos (latex I assume). Previous psets could exhibit the same behavior listed here.  
-[4] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam
+[4] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam 3. If you couldn't tell already from the Copyright or the allusions to their status quo, it appears that the video lectures were filmed around 1999-2000.
 
 - 18.05: Intro to Probability and Statistics  
