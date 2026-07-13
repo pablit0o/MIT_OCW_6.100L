@@ -5,7 +5,7 @@ Note: I included a LICENSE file for courses that require attribution among other
 Coursework and Footnotes:  
 - CSAwesome2: AP Computer Science A (https://runestone.academy/ns/books/published/csawesome2/csawesome2.html)  
 [1] - You don't really need any external tools to learn the material, but I found it useful to type down some notes. If you are here for self-studying AP CSA, I also made a quick guide/calendar if you wish to follow it.
-[2] - I studied this course in 2025-2026 while the revisions were undergoing. I'm unsure by how much it is changed.
+[2] - I studied this course in 2025-2026 while the revisions were undergoing. I'm unsure by how much it has changed.
 
 - 6.100L: Intro to Python  
 [1] - Pset 1 Part C contains an inaccurate grading criteria for the bisection method. Note that the grading criteria was plus-or-minus one off of the ground truth. This does not seem to be reflected for the third test case. For more info there should be some comments regarding this footnote.  
