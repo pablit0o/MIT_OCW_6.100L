@@ -24,4 +24,4 @@ Coursework and Footnotes:
 - 18.05: Intro to Probability and Statistics
 
 - Analysis I: Fourth Edition by Terence Tao  
-[1] - This was truly the first "self-study" course. All I have is a book, some notebook paper, and the indomitable human spirit. I graded my answers to exercises based on LLMs, which by themselves could also be wrong.  
+[1] - This was truly the first "self-study" course. All I have is a book, some notebook paper, and the indomitable human spirit. I was tempted to use LLMs to grade my work, but since the intent was to learn I prefer having uncertainty to think-over rather than immediate results. Also, screw corporations. Make your own AI.    
