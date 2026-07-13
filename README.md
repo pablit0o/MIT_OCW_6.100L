@@ -18,8 +18,8 @@ Coursework and Footnotes:
 [3] - Pset 4 of 18.06 contains various typos (latex I assume). Previous psets could exhibit the same behavior listed here.  
 [4] - Strang's separation-degree to Bill Clinton is 2. (lecture 11)  
 [5] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam 3. If you couldn't tell already from the Copyright or the allusions to their status quo, it appears that the video lectures were filmed around 1999-2000.  
-[5] - According to 5.1, Strang's favorite matrices "have 2's on the main diagonal and -1's on the diagonals above and below"  
-[6] - Pset 6 has some minor typos.  
+[6] - According to 5.1, Strang's favorite matrices "have 2's on the main diagonal and -1's on the diagonals above and below"  
+[7] - Pset 6 has some minor typos.  
 
 - 18.05: Intro to Probability and Statistics
 
