@@ -20,6 +20,8 @@ Coursework and Footnotes:
 [5] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam 3. If you couldn't tell already from the Copyright or the allusions to their status quo, it appears that the video lectures were filmed around 1999-2000.  
 [6] - According to 5.1, Strang's favorite matrices "have 2's on the main diagonal and -1's on the diagonals above and below"  
 [7] - Starting from Pset 6, I started to document my Python code for the Matlab questions given their frequency. Unfortunately, previous Python code was discarded as I felt it was too trivial...ugh.  
+[8] - Lecture 19 was executed.  
+[9] - Pset 8 Section 6.3 Problem 24 seems to be wrong in their diagonalization of SAS-1. I think it may be a different setup, though.  
 
 - 18.05: Intro to Probability and Statistics
 
