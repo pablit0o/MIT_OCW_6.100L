@@ -15,7 +15,7 @@ Coursework and Footnotes:
 - 18.06: Linear Algebra (Strang!)  
 [1] - Please note that I take 18.06 as a "one-time-answer", meaning that my answers are computed/finalized once. Of course, I made plenty of mistakes! Revise the official pset answers to see the solutions.  
 [2] - My problems from Pset 3 are completely different than the official problems. The fifth edition has different section-numbers and as such I did not select the correct problems. Ensure that you get a copy of the correct edition (4th) for problems!  
-[3] - Pset 4, 6 contain various typos (latex I assume). I'll add on here as I go.  
+[3] - Pset 4, 6 contain various typos (latex I assume). Pset 9 contains a typo for Section 6.5 Problem 26. I'll add on here as I go.  
 [4] - Strang's separation-degree to Bill Clinton is 2. (lecture 11)  
 [5] - I believe the video lectures and the quizzes are a bit out of order. Lecture 1-10 are correspondent to Exam 1, Lecture 11-22 to Exam 2, and 23-31 to Exam 3. If you couldn't tell already from the Copyright or the allusions to their status quo, it appears that the video lectures were filmed around 1999-2000.  
 [6] - According to 5.1, Strang's favorite matrices "have 2's on the main diagonal and -1's on the diagonals above and below"  
