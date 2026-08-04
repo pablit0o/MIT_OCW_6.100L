@@ -23,6 +23,7 @@ Coursework and Footnotes:
 [8] - Lecture 19 was executed.  
 [9] - Pset 8 Section 6.3 Problem 24 seems to be wrong in their diagonalization of SAS-1. I think it may be a different setup, though.  
 [10] - I did not do the final exam in case I ever want to review.  
+[11] - 3B1B mentioned?!?! (pg. 313)
 
 - 18.05: Intro to Probability and Statistics
 
