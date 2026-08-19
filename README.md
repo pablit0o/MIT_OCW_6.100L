@@ -26,6 +26,7 @@ Coursework and Footnotes:
 [11] - 3B1B mentioned?!?! (pg. 311)
 
 - 18.05: Intro to Probability and Statistics
+[1] - I should note this course was for self-studying AP Statistics.  
 
 - Analysis I: Fourth Edition by Terence Tao  
 [1] - This was truly the first "self-study" course. All I have is a book, some notebook paper, and the indomitable human spirit. I was tempted to use LLMs to grade my work, but since the intent was to learn I prefer having uncertainty to think-over rather than immediate results. Also, screw corporations. Make your own AI.    
